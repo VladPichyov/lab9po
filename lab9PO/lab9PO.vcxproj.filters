@@ -27,6 +27,9 @@
     <ClCompile Include="filter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="constants.h">
@@ -42,6 +45,9 @@
       <Filter>Resource Files</Filter>
     </ClInclude>
     <ClInclude Include="filter.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="processing.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
