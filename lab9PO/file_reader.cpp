@@ -35,7 +35,7 @@ void read(const char* file_name, runner_subscription* array[], int& size)
             item->start = convert(tmp_buffer);
             file >> tmp_buffer;
             item->finish = convert(tmp_buffer);
-            file.read(tmp_buffer, 1); // чтения лишнего символа пробела
+            file.read(tmp_buffer, 1); // С‡С‚РµРЅРёСЏ Р»РёС€РЅРµРіРѕ СЃРёРјРІРѕР»Р° РїСЂРѕР±РµР»Р°
             file.getline(item->club, MAX_STRING_SIZE);
             int time_finish;
             time_finish = item->finish.hour * 3600 + item->finish.minute * 60 + item->finish.second;
@@ -57,6 +57,6 @@ void read(const char* file_name, runner_subscription* array[], int& size)
     }
     else
     {
-        throw "Ошибка открытия файла";
+        throw "РћС€РёР±РєР° РѕС‚РєСЂС‹С‚РёСЏ С„Р°Р№Р»Р°";
     }
 }

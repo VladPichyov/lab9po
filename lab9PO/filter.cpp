@@ -18,7 +18,7 @@ runner_subscription** filter(runner_subscription* array[], int size, bool (*chec
 
 bool check_runner_subscription_by_club(runner_subscription* element)
 {
-	return strcmp(element->club, "\"Ñïàðòàê\"") == 0;
+	return strcmp(element->club, "\"Ð¡Ð¿Ð°Ñ€Ñ‚Ð°Ðº\"") == 0;
 }
 
 bool check_runner_subscription_by_time(runner_subscription* element)
