@@ -1,16 +1,13 @@
 ﻿#include "pch.h"
 #include "CppUnitTest.h"
 
-#include "C:\Users\Vlad\git\lab9po\lab9PO\runner_subscription.h"
-#include "C:\Users\Vlad\git\lab9po\lab9PO\processing.h"
+#include "..\lab9PO\runner_subscription.h"
+#include "..\lab9PO\processing.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace unittestproject
 {
-    // вспомогательная функция для создания одной записи на абонементе
-    // так как для тестов необходимы лишь данные о дате выдачи и возврате книги,
-    // данные о названии, авторе и читателе не заполняются
     runner_subscription* build_subscription(int result_hour, int result_minute, int result_second)
     {
         runner_subscription* subscription = new runner_subscription;
